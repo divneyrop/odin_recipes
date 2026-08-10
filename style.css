@@ -20,16 +20,25 @@ p {
     line-height: 1.6;
 }
 .container {
+    padding: 20px;
     padding-left: 20px;
     background-color: #1f1301;
-    border-radius: 8px;
+    border-radius: 10px;
     color: #874902;
     font-family: 'Arial', sans-serif;
 }
 a {
     color: #f89019;
     text-decoration: none;
+    font-family: 'Arial', sans-serif;
 }
 a:hover {
     color: #482e11;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
 }
