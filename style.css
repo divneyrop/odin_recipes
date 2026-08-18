@@ -19,7 +19,7 @@ p {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
 }
-.container {
+.container, .menu {
     padding: 20px;
     padding-left: 20px;
     background-color: #1f1301;
@@ -41,4 +41,16 @@ img {
     border-radius: 8px;
     display: block;
     margin: 0 auto;
+}
+.container li{
+    padding: 10px 15px;
+    transition: all 0.2s ease;
+}
+
+.container li:hover {
+    background-color: #653702d2;
+    color: #170e00;
+    border-radius: 10px;
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
