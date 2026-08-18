@@ -54,3 +54,39 @@ img {
     transform: translateY(-5px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
+.menu li {
+  position: relative;
+  width: fit-content;
+  margin: 20px 0;
+}
+.description {
+  position: absolute;
+  left: 120%;
+  color: #482e11;
+  width: 250px;
+  padding: 20px;
+
+  background: #605a51;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-50%) translateX(-10px);
+
+  transition:
+    opacity 0.2s ease,
+    transform 0.2s ease,
+    visibility 0.2s ease;
+}
+.menu li:hover .description {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(-50%) translateX(0);
+}
+.description img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
