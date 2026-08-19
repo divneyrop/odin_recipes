@@ -1,43 +1,41 @@
-Odin_recipes.
-A basic recipe website built as part of "The Odin Project" (https://www.theodinproject.com/) Foundations course.
+# 3-Recipes
 
-About
+A simple recipe website built as part of **The Odin Project** curriculum.
 
-This project is a simple multi-page recipe website created to practice the fundamentals of HTML.
+This branch, `feature/css`, introduces **basic CSS styling** to the original HTML-only version of the project.
 
-The site contains links to different recipes, with each recipe including ingredients and step-by-step cooking instructions.
+## Current Features
 
-Skills Demonstrated
+* Three recipe pages:
 
-- HTML5
-- Working with headings, paragraphs, and lists
-- Creating links between pages
-- Adding and displaying images
-- Organizing files and directories
-- Using Git and GitHub for version control
+  * Spaghetti Carbonara
+  * Chicken Stir-Fry
+  * Lasagna
+* Basic HTML structure and navigation
+* Initial CSS styling and improved presentation
+* Recipe descriptions and ingredients/instructions
 
-Project Structure
+## About This Branch
 
-odin-recipes/
-├── index.html
-├── recipes/
-│   ├── recipe-1.html
-│   ├── recipe-2.html
-│   └── recipe-3.html
-└── images/
+The `feature/css` branch is an incremental upgrade from the original version. The goal is to gradually improve the website's visual design and user experience while keeping the project simple and focused on learning.
 
-How to Run
+## Future Improvements
 
-Clone the repository:
+This project is intended to be **continuously upgraded**. Future changes may include:
 
-git clone <https://github.com/divneyrop/odin_recipes>
+* More refined CSS styling
+* Improved layout and responsiveness
+* Better typography and visual hierarchy
+* Enhanced navigation
+* Additional recipes
+* More interactive features
 
-Open "index.html" in your browser.
+## Project Status
 
-What I Learned
+🚧 **In active development**
 
-This project gave me hands-on practice with the basic building blocks of HTML and helped me get more comfortable with creating and organizing a small website from scratch.
+This is a learning project, and the design and functionality will continue to evolve as new concepts and skills are introduced.
 
-Credits
+## Credits
 
-This project was created as part of The Odin Project – Foundations curriculum. 
+Built as part of **The Odin Project** curriculum.
