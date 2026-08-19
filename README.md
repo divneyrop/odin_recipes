@@ -30,7 +30,7 @@ How to Run
 
 Clone the repository:
 
-git clone <https://github.com/divneyrop/odin_recipes>
+git clone <https://github.com/divneyrop/3-recipes>
 
 Open "index.html" in your browser.
 
